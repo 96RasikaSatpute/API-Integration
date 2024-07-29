@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("restro.jpg");
+    background-position: center;
+    background-size: 1920px 1030px;
+}
+
+.index-card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    background-blend-mode: normal;
+}
+
+.header {
+    text-align: center;
+    text-size: 30px;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.submit-button {
+    display: block;
+    width: 50%;
+    align: center;
+    padding: 8px 20px;
+    background-color: #F6B318;
+    color: Black;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #F6B338;
+}
